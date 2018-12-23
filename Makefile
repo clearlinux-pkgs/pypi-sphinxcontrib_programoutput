@@ -1,5 +1,5 @@
 PKG_NAME := sphinxcontrib-programoutput
-URL = https://files.pythonhosted.org/packages/25/34/fd1b61d3fe9ea705dff169d55426bf23d8be0f7b1976d17e79fbcc16e7d9/sphinxcontrib-programoutput-0.11.tar.gz
+URL = https://files.pythonhosted.org/packages/be/08/db26a372785a4eaebad287c9557345e606785af7af886c3fd4e368d494eb/sphinxcontrib-programoutput-0.13.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
