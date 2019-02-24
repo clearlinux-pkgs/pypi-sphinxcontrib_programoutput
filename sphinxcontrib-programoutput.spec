@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-programoutput
 Version  : 0.13
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/be/08/db26a372785a4eaebad287c9557345e606785af7af886c3fd4e368d494eb/sphinxcontrib-programoutput-0.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/be/08/db26a372785a4eaebad287c9557345e606785af7af886c3fd4e368d494eb/sphinxcontrib-programoutput-0.13.tar.gz
 Summary  : Sphinx extension to include program output
@@ -23,8 +23,9 @@ BuildRequires : tox
 BuildRequires : virtualenv
 
 %description
+=============================
 sphinxcontrib-programoutput
-        =============================
+=============================
 
 %package license
 Summary: license components for the sphinxcontrib-programoutput package.
@@ -60,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1545578661
+export SOURCE_DATE_EPOCH=1551038119
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
