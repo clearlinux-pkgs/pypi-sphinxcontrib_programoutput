@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-programoutput
 Version  : 0.17
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/49/fe/8a6d8763674b3d3814a6008a83eb8002b6da188710dd7f4654ec77b4a8ac/sphinxcontrib-programoutput-0.17.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/fe/8a6d8763674b3d3814a6008a83eb8002b6da188710dd7f4654ec77b4a8ac/sphinxcontrib-programoutput-0.17.tar.gz
 Summary  : Sphinx extension to include program output
