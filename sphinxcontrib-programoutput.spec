@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-programoutput
 Version  : 0.17
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/49/fe/8a6d8763674b3d3814a6008a83eb8002b6da188710dd7f4654ec77b4a8ac/sphinxcontrib-programoutput-0.17.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/fe/8a6d8763674b3d3814a6008a83eb8002b6da188710dd7f4654ec77b4a8ac/sphinxcontrib-programoutput-0.17.tar.gz
 Summary  : Sphinx extension to include program output
@@ -13,14 +13,13 @@ License  : BSD-2-Clause
 Requires: sphinxcontrib-programoutput-license = %{version}-%{release}
 Requires: sphinxcontrib-programoutput-python = %{version}-%{release}
 Requires: sphinxcontrib-programoutput-python3 = %{version}-%{release}
-Requires: Sphinx
-BuildRequires : Sphinx
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(pluggy)
+BuildRequires : pypi(py)
+BuildRequires : pypi(pytest)
+BuildRequires : pypi(sphinx)
+BuildRequires : pypi(tox)
+BuildRequires : pypi(virtualenv)
 
 %description
 sphinxcontrib-programoutput
@@ -63,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1617218856
+export SOURCE_DATE_EPOCH=1641428339
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
