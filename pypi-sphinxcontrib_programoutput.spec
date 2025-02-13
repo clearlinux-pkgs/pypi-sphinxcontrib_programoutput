@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinxcontrib_programoutput
 Version  : 0.18
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/3f/c0/834af2290f8477213ec0dd60e90104f5644aa0c37b1a0d6f0a2b5efe03c4/sphinxcontrib_programoutput-0.18.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3f/c0/834af2290f8477213ec0dd60e90104f5644aa0c37b1a0d6f0a2b5efe03c4/sphinxcontrib_programoutput-0.18.tar.gz
 Summary  : Sphinx extension to include program output
